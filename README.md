@@ -1,5 +1,6 @@
-Author :- Harapriya Mahanta
+<p>Author :- Harapriya Mahanta</p>
 <b>Problem Statement:-</b>
+
 It is a school management system.
 School add,edit,delete and update operation done here.
 
