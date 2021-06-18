@@ -15,9 +15,13 @@ class SchoolResource extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        $schollist = School::orderBy('id','DESC')->get();
-        return $schollist;
+    {   
+        try{
+            $schollist = School::orderBy('id','DESC')->get();
+            return $schollist;
+        }catch(Exception $e){
+            return response()->json(["status" => "failed", "message" => $e->getMessage()]);
+        }
     }
 
     /**
