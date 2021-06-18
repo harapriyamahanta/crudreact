@@ -18,9 +18,7 @@ class CreateSchoolsTable extends Migration
             $table->string('name');
             $table->text('address');
             $table->string('phone');
-            $table->enum('school_type',['primary','secondary']);
             $table->enum('school_medium',['CBSE','ICSE','CISCE','NIOS','IB','CIE']);
-            $table->string('school_logo');
             $table->timestamps();
         });
     }
