@@ -1,4 +1,4 @@
-#Author :- Harapriya Mahanta
+Author :- Harapriya Mahanta
 <b>Problem Statement:-</b>
 It is a school management system.
 School add,edit,delete and update operation done here.
@@ -10,7 +10,7 @@ PHP Laravel Framework(MVC Framework) for Server side render and API provider
 HTML and CSS
 
 
-<h1>Steps to Install:-</h1>
+<b>Steps to Install:-</b>
 
 1. download/Clone the repo.
 2. unzip the file to /var/www/html folder (Linux) 
